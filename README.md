@@ -12,14 +12,14 @@
 <a href="https://github.com/toolsdk-ai/toolsdk-mcp-registry/actions/workflows/test.yaml">
   <img src="https://github.com/toolsdk-ai/toolsdk-mcp-registry/actions/workflows/test.yaml/badge.svg" alt="Build Status" />
 </a>
-<img src="https://img.shields.io/badge/MCP_Servers-4521-blue?style=flat-square" alt="MCP Servers Count" />
+<img src="https://img.shields.io/badge/MCP_Servers-4533-blue?style=flat-square" alt="MCP Servers Count" />
 <img src="https://img.shields.io/badge/LICENSE-MIT-ff69b4?style=flat-square" alt="License" />
 <br />
 <a href="https://www.producthunt.com/products/toolsdk-ai">
   <img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=997428&theme=light&period=daily" alt="Product Hunt" height="40" />
 </a>
 
-<a href="#mcp-servers">🔍 <b>Browse 4521+ Tools</b></a>
+<a href="#mcp-servers">🔍 <b>Browse 4533+ Tools</b></a>
 &nbsp;&nbsp;•&nbsp;&nbsp;
 <a href="#quick-start">🐳 <b>Self-hosted</b></a>
 &nbsp;&nbsp;•&nbsp;&nbsp;
@@ -75,7 +75,7 @@ docker compose up -d
 - *See [Configuration Guide](./docs/DEVELOPMENT.md) for full details.*
 
 > [!TIP]
-> **Tip for Private Deployment**: This registry contains 4521+ public MCP servers. If you only need a specific subset for your private environment, you can prune the `packages/` directory.
+> **Tip for Private Deployment**: This registry contains 4533+ public MCP servers. If you only need a specific subset for your private environment, you can prune the `packages/` directory.
 > 📖 See [Package Management Guide](./docs/DEVELOPMENT.md#5--package-management-for-private-deployment) for details.
 
 That's it! Your self-hosted MCP registry is now running with:
@@ -87,7 +87,7 @@ That's it! Your self-hosted MCP registry is now running with:
 
 - 🌐 **Local Web Interface**: http://localhost:3003
 - 📚 **Swagger API Docs**: http://localhost:3003/swagger  
-- 🔍 **Search & Execute** 4521+ MCP Servers remotely
+- 🔍 **Search & Execute** 4533+ MCP Servers remotely
 - 🤖 **Integrate** with your AI agents, chatbots, and LLM applications
 
 #### 🌐 Remote Tool Execution Example
@@ -221,7 +221,7 @@ graph TD
 
 This open-source project provides:
 
-- **Structured Registry** - 4521+ MCP servers with metadata
+- **Structured Registry** - 4533+ MCP servers with metadata
 - **Unified Gateway** - HTTP API to query and execute tools remotely
 - **Auto-Generated Docs** - Always up-to-date README and API documentation
 
@@ -320,12 +320,12 @@ Your MCP server will be:
 
 ## MCP Servers Directory
 
-**4521+ AI Agent Tools, LLM Integrations & Automation Servers**
+**4533+ AI Agent Tools, LLM Integrations & Automation Servers**
 
 > [!NOTE]
 > ⭐ **Featured below**: Hand-picked, production-ready MCP servers verified by our team.
 >
-> 📚 **Looking for all 4521+ servers?** Check out [**All MCP Servers**](./docs/ALL-MCP-SERVERS.md) for the complete list.
+> 📚 **Looking for all 4533+ servers?** Check out [**All MCP Servers**](./docs/ALL-MCP-SERVERS.md) for the complete list.
 
 > [!TIP]
 > If a package is marked as `validated: true` in the index, you can usually wire it up in minutes via ToolSDK (e.g. `getAISDKTool(toolKey)`).
@@ -771,8 +771,8 @@ Securely access and query databases with options for read-only permissions.
 - [✅ mcp-timeplus](https://github.com/jovezhong/mcp-timeplus): Integrates with Timeplus to enable SQL query execution and database information retrieval for real-time analytics and data exploration.  (7 tools) (python) 
 - [✅ mcp-turso-cloud](https://github.com/spences10/mcp-turso-cloud): Provides a bridge between AI assistants and Turso SQLite databases, enabling organization-level management and database-level queries with persistent context, schema exploration, and vector similarity search capabilities.  (9 tools) (node) 
 - [✅ mochow-mcp-server](https://github.com/baidu/mochow-mcp-server-python): Provides direct access to Mochow vector database capabilities for managing databases, tables, and performing vector similarity and full-text searches with filtering options.  (14 tools) (python) 
-- [✅ mongodb-mcp-server](https://github.com/mongodb-js/mongodb-mcp-server): Provides a bridge between MongoDB databases and conversational interfaces, enabling comprehensive database operations, collection management, schema inspection, and Atlas cloud service interactions with authentication and telemetry support.  (21 tools) (node) 
-- [✅ mongodb-mcp-server](https://github.com/mongodb-js/mongodb-mcp-server): Provides a bridge between MongoDB databases and conversational interfaces, enabling comprehensive database operations, collection management, schema inspection, and Atlas cloud service interactions with authentication and telemetry support.  (21 tools) (node) 
+- [✅ mongodb-mcp-server](https://github.com/mongodb-js/mongodb-mcp-server): MongoDB Model Context Protocol Server  (21 tools) (node) 
+- [✅ mongodb-mcp-server](https://github.com/mongodb-js/mongodb-mcp-server): MongoDB Model Context Protocol Server  (21 tools) (node) 
 - [✅ mysql-mcp-server](https://github.com/dpflucas/mysql-mcp-server): Provides secure, read-only access to MySQL databases for exploring schemas and executing SELECT queries with built-in safeguards against SQL injection, query timeouts, and row limits.  (4 tools) (node) 
 - [✅ mysql-query-mcp-server](https://github.com/devakone/mysql-query-mcp-server): Provides a secure, read-only bridge to MySQL databases, enabling natural language querying across multiple environments with strict validation and comprehensive error handling.  (3 tools) (node) 
 - [✅ mysqldb-mcp-server](https://github.com/burakdirin/mysqldb-mcp-server): Enables direct SQL query execution and database connections to MySQL databases through a simple interface that returns results in JSON format.  (2 tools) (python) 
@@ -989,6 +989,7 @@ Work with financial data, market info, and trading platforms using AI tools.
 - [✅ mercadolibre-mcp](https://github.com/lumile/mercadolibre-mcp): Integrates with MercadoLibre's e-commerce platform to simplify product and seller data retrieval, enabling functions like price monitoring, inventory management, and market analysis.  (3 tools) (node) 
 - [✅ moneybird-mcp-server](https://github.com/vanderheijden86/moneybird-mcp-server): Bridges Moneybird accounting software with natural language interaction, enabling users to manage contacts, invoices, financial accounts, products, projects, and time entries through conversational prompts.  (10 tools) (node) 
 - [✅ octagon-mcp](https://github.com/octagonai/octagon-mcp-server): Provides specialized investment research tools for analyzing SEC filings, earnings calls, financial data, stock market information, private company details, funding rounds, M&A transactions, and web scraping capabilities.  (3 tools) (node) 
+- [✅ octav-api-mcp](https://github.com/Octav-Labs/octav-api-mcp): Multi-chain crypto portfolio tracking MCP server. Access wallet holdings, DeFi protocol positions, transaction history, and token analytics across 20+ blockchains directly from Claude.  (14 tools) (node) 
 - [✅ search-stock-news-mcp](https://github.com/cognitive-stack/search-stock-news-mcp): Provides a specialized tool for retrieving stock-related news using the Tavily API, enabling financial searches by stock symbol and company name with configurable parameters for Vietnamese financial sources like CafeF and Nguoi Quan Sat.  (2 tools) (node) 
 - [✅ setu_mcp_kyc](https://github.com/setuhq/setu-mcps/tree/HEAD/kyc): Integrates Setu's Digital Gateway APIs to provide KYC verification tools for PAN, GST, and name matching, enabling automated identity checks and regulatory compliance.  (3 tools) (python) 
 - [✅ setu_mcp_upi_deeplinks](https://github.com/setuhq/setu-mcps/tree/HEAD/upi-deeplinks): Integrates Setu's UPI payment infrastructure to enable seamless generation and management of payment links for applications.  (5 tools) (python) 
@@ -1321,8 +1322,8 @@ Get travel schedules, routes, and real-time transportation data.
 - [✅ @mfukushim/map-traveler-mcp](https://github.com/mfukushim/map-traveler-mcp): Integrates with Google Maps to create virtual travel experiences where users can navigate real-world routes with customizable avatars, discover nearby facilities, and share journeys on Bluesky.  (8 tools) (node) 
 - [✅ @openbnb/mcp-server-airbnb](https://github.com/openbnb-org/mcp-server-airbnb): Integrates with Airbnb to enable vacation rental search and detailed property information retrieval without requiring API keys  (2 tools) (node) 
 - [✅ @variflight-ai/variflight-mcp](https://github.com/variflight/variflight-mcp): Integrates with Variflight API to provide real-time flight information, schedules, aircraft tracking, airport weather forecasts, and comfort metrics for travel planning and aviation monitoring applications.  (8 tools) (node) 
-- [✅ 12306-mcp](https://github.com/freestylefly/12306-mcp): Integrates with China's 12306 railway system to search train tickets, check schedules, and retrieve route information across the Chinese railway network with real-time availability and pricing data.  (8 tools) (node) 
-- [✅ 12306-mcp](https://github.com/freestylefly/12306-mcp): Integrates with China's 12306 railway system to search train tickets, check schedules, and retrieve route information across the Chinese railway network with real-time availability and pricing data.  (8 tools) (node) 
+- [✅ 12306-mcp](https://github.com/Joooook/12306-mcp): A 12306 ticket search server based on the Model Context Protocol (MCP). The server provides a simple API interface that allows users to search for 12306 tickets.  (8 tools) (node) 
+- [✅ 12306-mcp](https://github.com/Joooook/12306-mcp): A 12306 ticket search server based on the Model Context Protocol (MCP). The server provides a simple API interface that allows users to search for 12306 tickets.  (8 tools) (node) 
 - [✅ caltrain-mcp](https://github.com/davidyen1124/caltrain-mcp): Provides real-time Caltrain commuter rail information including schedules, station details, and trip planning for the San Francisco Bay Area  (2 tools) (python) 
 - [✅ lumbretravel-mcp](https://github.com/lumile/lumbretravel-mcp): Integrates with the Argentinian LumbreTravel API to manage travel programs, activities, and bookings for efficient itinerary planning and service coordination.  (68 tools) (node) 
 - [✅ train_12306](https://github.com/ecmadao/Train-12306): A command line tool to show 12306 tickets  (4 tools) (python) 
@@ -1409,8 +1410,10 @@ Miscellaneous tools and integrations that don’t fit into other categories.
 - [✅ @stackzero-labs/mcp](https://github.com/stackzero-labs/mcp): Integrates with Stackzero Labs' commerce UI component library to browse, retrieve, and install React components optimized for e-commerce applications including ratings, image viewers, product controls, and banner blocks with installation instructions and usage examples.  (12 tools) (node) 
 - [✅ @surajadsul02/mcp-server-salesforce](https://github.com/surajadsul/mcp-server-salesforce): Integrates Claude with Salesforce, enabling natural language interactions for object management, schema exploration, data querying, and manipulation across Salesforce objects.  (7 tools) (node) 
 - [✅ @tacticlaunch/mcp-linear](https://github.com/tacticlaunch/mcp-linear): Bridges Linear project management system with natural language interaction, enabling issue tracking, project workflows, and team management without context switching.  (32 tools) (node) 
+- [✅ @taskade/mcp-server](https://github.com/taskade/mcp): Official Taskade MCP server with 50+ tools for managing workspaces, projects, tasks, custom AI agents, knowledge bases, templates, and workflow automations. Includes OpenAPI-to-MCP codegen utility.  (21 tools) (node) 
 - [✅ @thomaswawra/server-spotify](https://github.com/superseoworld/mcp-spotify): Integrates with Spotify Web API to enable music search, playback control, and playlist management for applications needing music data and content access.  (26 tools) (node) 
 - [✅ @wangshunnn/bilibili-mcp-server](https://github.com/wangshunnn/bilibili-mcp-server): Integrates with Bilibili video platform to retrieve user information, video details, and perform searches without switching contexts.  (3 tools) (node) 
+- [✅ @wavestreamer/mcp](https://www.npmjs.com/package/@wavestreamer/mcp): AI forecasting platform where agents predict the future of AI — place predictions with confidence scores, evidence-based reasoning, debate, and climb the leaderboard.  (17 tools) (node) 
 - [✅ @wenbopan/things-mcp](https://github.com/wbopan/things-mcp): Integrates with Things.app task management for macOS, enabling task and project creation with full metadata support, update operations including completion status, database export functionality, and summary generation through URL scheme and direct database access.  (6 tools) (node) 
 - [✅ a11y-mcp-server](https://github.com/ronantakizawa/a11ymcp): Provides accessibility testing capabilities for web content using Axe-core, enabling evaluation of websites and HTML snippets against WCAG standards with detailed violation reports and remediation guidance.  (6 tools) (node) 
 - [✅ advocu-mcp-server](https://github.com/carlosazaustre/advocu-mcp-server): Integrates with the Advocu platform to streamline activity reporting for Google Developer Experts, enabling submission of content creation, speaking engagements, workshops, mentoring sessions, and community interactions with detailed metrics tracking.  (7 tools) (node) 

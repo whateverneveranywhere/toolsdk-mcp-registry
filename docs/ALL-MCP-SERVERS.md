@@ -1,6 +1,6 @@
 # 📚 All MCP Servers
 
-> **Complete directory of all 4521+ MCP servers in the ToolSDK Registry**
+> **Complete directory of all 4533+ MCP servers in the ToolSDK Registry**
 >
 > Looking for production-ready servers only? See the [main README](../README.md) for validated servers.
 
@@ -8,9 +8,9 @@
 
 ## 📊 Statistics
 
-- 📦 **Total Servers**: 4521
-- ✅ **Validated & Tested**: 809
-- ⚙️ **Community Contributed**: 3712
+- 📦 **Total Servers**: 4533
+- ✅ **Validated & Tested**: 812
+- ⚙️ **Community Contributed**: 3721
 
 ---
 
@@ -55,7 +55,7 @@
 
 
 <a id="uncategorized"></a>
-### Uncategorized <small>(556 servers)</small>
+### Uncategorized <small>(557 servers)</small>
 
 > Tools that haven’t been sorted into a category yet. AI will categorize it later.
 
@@ -460,6 +460,7 @@ New mcp tool: Exa-code is a context tool for coding   (node)
 - [❌ clickup](https://github.com/noah-vh/mcp-server-clickup): Integrates with ClickUp to enable task management, project tracking, and workflow optimization within the platform's ecosystem.  (python) 
 - [❌ climatiq](https://github.com/jagan-shanmugam/climatiq-mcp-server): Provides a bridge to the Climatiq API for calculating precise carbon emissions across electricity usage, travel, cloud computing, and procurement domains using detailed environmental impact measurement tools.  (python) 
 - [❌ cml-mcp](https://github.com/xorrkaz/cml-mcp): An MCP server that provides access to common Cisco Modeling Labs (CML) operations.  (python) 
+- [❌ cocoindex-code](https://github.com/cocoindex-io/cocoindex-code): A super lightweight, effective embedded MCP that understands and searches your codebase that just works! Works for Claude, Codex, Cursor - any coding agent. Instant token saving by 70%.  (python) 
 - [❌ code-weaver](https://github.com/knitli/codeweaver): Semantic code search built for AI agents. Hybrid, AST-aware, context for 166 languages.  (python) 
 - [❌ codelogic-mcp-server](https://github.com/CodeLogicIncEngineering/codelogic-mcp-server): An MCP Server to utilize Codelogic's rich software dependency data in your AI programming assistant.  (python) 
 - [❌ coinrailz-mcp](https://github.com/tdnupe3/mcp-server-coinrailz): 37+ crypto micropayment services: trading, DEX analytics, prediction markets via x402  (python) 
@@ -624,7 +625,7 @@ New mcp tool: Exa-code is a context tool for coding   (node)
 
 
 <a id="aggregators"></a>
-### Aggregators <small>(83 servers)</small>
+### Aggregators <small>(84 servers)</small>
 
 > Servers that let you access multiple apps and tools through one MCP server.
 
@@ -646,6 +647,7 @@ New mcp tool: Exa-code is a context tool for coding   (node)
 - [❌ @metamcp/mcp-server-metamcp](https://github.com/metatool-ai/mcp-server-metamcp): Centralizes management of multiple AI services, providing secure API key handling and unified access for streamlined interactions across diverse platforms.  (node) 
 - [❌ @nullplatform/meta-mcp-proxy](https://github.com/nullplatform/meta-mcp-proxy): Unifies multiple MCP servers into a single gateway with built-in search capabilities, enabling tools to be discovered and executed across different specialized services through one interface  (node) 
 - [❌ @pipedream/mcp](https://github.com/pipedreamhq/pipedream/tree/HEAD/modelcontextprotocol): Access hosted MCP servers or deploy your own for 2,500+ APIs like Slack, GitHub, Notion, Google Drive, and more, all with built-in auth and 10k tools.  (node) 
+- [❌ @skillboss/mcp-server](https://skillboss.co): The complete tool store for AI agents. Provides instant access to 100+ services including AI models, image/video generation, web scraping, payments, databases, and more with a single API key.  (node) 
 - [❌ @stabgan/openrouter-mcp-multimodal](https://github.com/stabgan/openrouter-mcp-multimodal): Provides seamless access to OpenRouter's diverse AI models, enabling multimodal interactions across vision and language models with intelligent model selection, caching, and robust error handling.  (node) 
 - [❌ @superfaceai/mcp](https://github.com/superfaceai/mcp): Bridges AI assistants with Superface's API tools ecosystem, enabling external API integrations while maintaining separation between assistants and third-party services  (node) 
 - [❌ @thirdstrandstudio/mcp-tool-chainer](https://github.com/thirdstrandstudio/mcp-tool-chainer): Chains multiple MCP tools together in sequence, passing results between tools without sending large intermediate data back to the LLM, reducing token usage for complex workflows.  (node) 
@@ -1459,7 +1461,7 @@ New mcp tool: Exa-code is a context tool for coding   (node)
 
 
 <a id="communication"></a>
-### Communication <small>(210 servers)</small>
+### Communication <small>(211 servers)</small>
 
 > Connect with messaging platforms to manage chats and interact with team tools.
 
@@ -1533,6 +1535,7 @@ New mcp tool: Exa-code is a context tool for coding   (node)
 - [❌ chatgpt-responses](https://github.com/billster45/mcp-chatgpt-responses): Bridges Claude Desktop with ChatGPT API, enabling direct access to standard ChatGPT interactions and web search-enabled queries with conversation continuity through response IDs.  (python) 
 - [❌ claude-chatgpt](https://github.com/syedazharmbnr1/claude-chatgpt-mcp): Integrates Claude with the ChatGPT desktop app on macOS using AppleScript, enabling cross-assistant interactions for prompt sending, response retrieval, and conversation management.  (node) 
 - [❌ clicksend](https://github.com/j-gal02/clicksend-mcp): Integrates with ClickSend's API to enable sending SMS messages and initiating Text-to-Speech calls for automated communication workflows.  (node) 
+- [❌ commune-mcp](https://github.com/shanjai-raj/commune-mcp): Email infrastructure built specifically for AI agents. Enables programmatic inbox creation, bidirectional email with thread tracking, custom sending domains, and structured extraction on inbound mail.  (python) 
 - [❌ devin](https://github.com/kazuph/mcp-devin): Integrates with Slack to enable seamless team collaboration through automated session management, thread context preservation, and channel-based conversations  (node) 
 - [❌ didlogic_mcp](https://github.com/userad/didlogic_mcp): Provides a natural language interface to DIDLogic telecommunications API for managing SIP accounts, phone numbers, call history, and billing information through specialized VoIP administration tools.  (python) 
 - [❌ dingding-(dingtalk)](https://github.com/hundunonline/mcp-dingdingbot-server): Integrates with DingDing (DingTalk) messaging platform to enable automated notifications, team alerts, and AI-generated content delivery through multiple message formats including text, markdown, images, and interactive cards.  (go) 
@@ -1710,7 +1713,7 @@ New mcp tool: Exa-code is a context tool for coding   (node)
 
 
 <a id="databases"></a>
-### Databases <small>(221 servers)</small>
+### Databases <small>(222 servers)</small>
 
 > Securely access and query databases with options for read-only permissions.
 
@@ -1734,8 +1737,8 @@ New mcp tool: Exa-code is a context tool for coding   (node)
 - [✅ mcp-timeplus](https://github.com/jovezhong/mcp-timeplus): Integrates with Timeplus to enable SQL query execution and database information retrieval for real-time analytics and data exploration.  (7 tools) (python) 
 - [✅ mcp-turso-cloud](https://github.com/spences10/mcp-turso-cloud): Provides a bridge between AI assistants and Turso SQLite databases, enabling organization-level management and database-level queries with persistent context, schema exploration, and vector similarity search capabilities.  (9 tools) (node) 
 - [✅ mochow-mcp-server](https://github.com/baidu/mochow-mcp-server-python): Provides direct access to Mochow vector database capabilities for managing databases, tables, and performing vector similarity and full-text searches with filtering options.  (14 tools) (python) 
-- [✅ mongodb-mcp-server](https://github.com/mongodb-js/mongodb-mcp-server): Provides a bridge between MongoDB databases and conversational interfaces, enabling comprehensive database operations, collection management, schema inspection, and Atlas cloud service interactions with authentication and telemetry support.  (21 tools) (node) 
-- [✅ mongodb-mcp-server](https://github.com/mongodb-js/mongodb-mcp-server): Provides a bridge between MongoDB databases and conversational interfaces, enabling comprehensive database operations, collection management, schema inspection, and Atlas cloud service interactions with authentication and telemetry support.  (21 tools) (node) 
+- [✅ mongodb-mcp-server](https://github.com/mongodb-js/mongodb-mcp-server): MongoDB Model Context Protocol Server  (21 tools) (node) 
+- [✅ mongodb-mcp-server](https://github.com/mongodb-js/mongodb-mcp-server): MongoDB Model Context Protocol Server  (21 tools) (node) 
 - [✅ mysql-mcp-server](https://github.com/dpflucas/mysql-mcp-server): Provides secure, read-only access to MySQL databases for exploring schemas and executing SELECT queries with built-in safeguards against SQL injection, query timeouts, and row limits.  (4 tools) (node) 
 - [✅ mysql-query-mcp-server](https://github.com/devakone/mysql-query-mcp-server): Provides a secure, read-only bridge to MySQL databases, enabling natural language querying across multiple environments with strict validation and comprehensive error handling.  (3 tools) (node) 
 - [✅ mysqldb-mcp-server](https://github.com/burakdirin/mysqldb-mcp-server): Enables direct SQL query execution and database connections to MySQL databases through a simple interface that returns results in JSON format.  (2 tools) (python) 
@@ -1826,6 +1829,7 @@ New mcp tool: Exa-code is a context tool for coding   (node)
 - [❌ libsql](https://github.com/nicholasq/mcp-server-libsql): Integrates with LibSQL databases to enable schema retrieval and table querying for real-time data access and analysis.  (node) 
 - [❌ materialize](https://github.com/sjwiesman/mcp-materialize): Automatically exposes Materialize database indexes as parameterized URI endpoints for natural language querying of materialized views  (python) 
 - [❌ mcp_snowflake_server](https://github.com/isaacwasserman/mcp-snowflake-server): Run SQL queries and other interactions against Snowflake databases  (python) 
+- [❌ mcp-database-connector-lite](https://github.com/tiranmoskovitch-dev/mcp-database-connector-lite): Free, open-source SQLite MCP server that gives AI assistants direct database access. Supports query execution, schema inspection, and data manipulation.  (python) 
 - [❌ mcp-db-navigator](https://github.com/medsaad/mcp-db-navigator): Enables direct access to MySQL/MariaDB databases for querying, schema exploration, and database management with comprehensive security measures including input sanitization and connection pooling.  (python) 
 - [❌ mcp-dbs](https://github.com/cuongtl1992/mcp-dbs): Provides a unified TypeScript-based database server for seamlessly connecting to SQLite, PostgreSQL, SQL Server, and MongoDB, enabling flexible database interactions through server-sent events and standard I/O communication modes.  (node) 
 - [❌ mcp-dbutils](https://github.com/donghao1393/mcp-dbutils): DButils is an all-in-one MCP service that enables your AI to do data analysis by accessing versatile types of database (sqlite, mysql, postgres, and more) within a unified connection configuration in a safe way.  (python) 
@@ -1940,7 +1944,7 @@ New mcp tool: Exa-code is a context tool for coding   (node)
 
 
 <a id="data-platforms"></a>
-### Data Platforms <small>(96 servers)</small>
+### Data Platforms <small>(97 servers)</small>
 
 > Tools for integrating, transforming, and managing data pipelines.
 
@@ -1960,6 +1964,7 @@ New mcp tool: Exa-code is a context tool for coding   (node)
 - [❌ @pebbletek/cribl-mcp](https://github.com/pebbletek/cribl-mcp): Integrates with Cribl Stream deployments to enable management of configurations, pipelines, sources, and system metrics for DevOps teams and data engineers monitoring data processing workflows.  (node) 
 - [❌ @tigrisdata/tigris-mcp-server](https://github.com/tigrisdata/tigris-mcp-server): Provides S3-compatible object storage capabilities for managing buckets, uploading/downloading objects, and generating signed URLs through Tigris Storage  (node) 
 - [❌ @toolprint/mcp-graphql-forge](https://github.com/toolprint/mcp-graphql-forge/tree/main/src): MCP that can proxy any GraphQL API and expose graphql operations as mcp tools.  (node) 
+- [❌ @toolsdk-remote/opendirectories-business-data](https://github.com/BigJai/opendirectories-mcp): Search 12M+ verified businesses across 10 countries via government registers. Government-sourced, Google Maps enriched. 6 tools for search, verification, competitor analysis, and market research.  (python) 
 - [❌ @vectorize-io/vectorize-mcp-server](https://github.com/vectorize-io/vectorize-mcp-server): Bridges Claude with Vectorize.io's vector database services for advanced document retrieval, text extraction, and research capabilities through TypeScript-based tools that handle authentication via organization IDs and API tokens.  (node) 
 - [❌ agentmode](https://github.com/agentmode/server): All-in-one server that connects your coding AI to dozens of databases, data warehouses, data pipelines, cloud services, and more.  (python) 
 - [❌ airbyte-status-checker](https://github.com/quintonwall/mcp-airbyte-list-sources): Integrates with Airbyte API to monitor data pipeline health, check connection statuses, and manage streams for real-time ETL process oversight.  (python) 
@@ -2045,7 +2050,7 @@ New mcp tool: Exa-code is a context tool for coding   (node)
 
 
 <a id="developer-tools"></a>
-### Developer Tools <small>(362 servers)</small>
+### Developer Tools <small>(364 servers)</small>
 
 > Enhance your development workflow with tools for coding and environment management.
 
@@ -2274,6 +2279,7 @@ New mcp tool: Exa-code is a context tool for coding   (node)
 - [❌ language-server](https://github.com/isaacphi/mcp-language-server): Provides intelligent code analysis and manipulation across multiple programming languages through language server protocols, enabling developers to explore, understand, and refactor complex codebases.  (go) 
 - [❌ laravel-debugbar](https://github.com/021-factory/laravel-debugbar-mcp): Provides a bridge to Laravel DebugBar for accessing detailed request logs, queries, routes, views, and models with filtering capabilities and formatted output for improved readability.  (node) 
 - [❌ laravel-helper-tools](https://github.com/jsonallen/laravel-mcp): Integrates with Laravel projects to provide log analysis, error tracking, and Artisan command execution for streamlined development workflows.  (python) 
+- [❌ lightcms](https://github.com/jonradoff/lightcms): AI-native CMS with 41 MCP tools for managing websites through natural language.  (go) 
 - [❌ lighthouse](https://github.com/danielsogl/lighthouse-mcp-server): Integrates Google Lighthouse web performance auditing capabilities to provide automated website performance, accessibility, SEO, and best practices analysis with detailed metrics and optimization recommendations.  (node) 
 - [❌ lighthouse-(pagespeed-insights)](https://github.com/adamsilverstein/lighthouse-mcp-server): Integrates with Google PageSpeed Insights API to run performance audits on web pages, retrieving detailed metrics and identifying optimization opportunities for web developers.  (node) 
 - [❌ lldb](https://github.com/stass/lldb-mcp): Enable disassembly, debugging and analysis of native apps via LLDB on macOS and Linux.  (python) 
@@ -2287,6 +2293,7 @@ New mcp tool: Exa-code is a context tool for coding   (node)
 - [❌ mathcad-prime](https://github.com/puran-water/mathcad-mcp): Integrates with PTC MathCAD Prime through the MathcadPy library, enabling worksheet management, input/output manipulation, and calculation control for engineering and scientific workflows.  (python) 
 - [❌ maven-dependencies](https://github.com/bigsy/maven-mcp-server): Integrates with Maven Central Repository to verify and retrieve dependency versions for automated project management and updates.  (node) 
 - [❌ maya](https://github.com/patrickpalmer/mayamcp): Provides a bridge between natural language commands and Autodesk Maya, enabling scene management, object creation, attribute manipulation, and viewport control through a dynamically extensible Python-based server.  (python) 
+- [❌ mcp-api-bridge-lite](https://github.com/tiranmoskovitch-dev/mcp-api-bridge-lite): Free, open-source REST API to MCP bridge. Connect any REST API to AI assistants through MCP with simple YAML configuration. Supports GET, POST, PUT, DELETE with authentication, headers, and parameter mapping.  (python) 
 - [❌ mcp-api-documentation-system](https://github.com/namyoungpark-2/docs-mcp-server): A fully automated system that analyzes Django REST Framework ViewSets to generate accurate OpenAPI 3.0 specification documentation without manual configuration.  (python) 
 - [❌ mcp-framework](https://github.com/QuantGeekDev/mcp-framework): MCP-Framework gives you architecture out of the box, with automatic directory-based discovery for tools, resources, and prompts. Use our powerful MCP abstractions to define tools, resources, or prompts in an elegant way. Our cli makes getting started with your own MCP server a breeze  (node) 
 - [❌ mcp-graphql-schema](https://github.com/hannesj/mcp-graphql-schema): Enables AI models to explore and understand GraphQL schemas through specialized tools for querying operations, looking up type definitions, pattern matching, and retrieving simplified field information.  (node) 
@@ -2704,7 +2711,7 @@ New mcp tool: Exa-code is a context tool for coding   (node)
 
 
 <a id="finance-fintech"></a>
-### Finance & Fintech <small>(268 servers)</small>
+### Finance & Fintech <small>(269 servers)</small>
 
 > Work with financial data, market info, and trading platforms using AI tools.
 
@@ -2745,6 +2752,7 @@ New mcp tool: Exa-code is a context tool for coding   (node)
 - [✅ mercadolibre-mcp](https://github.com/lumile/mercadolibre-mcp): Integrates with MercadoLibre's e-commerce platform to simplify product and seller data retrieval, enabling functions like price monitoring, inventory management, and market analysis.  (3 tools) (node) 
 - [✅ moneybird-mcp-server](https://github.com/vanderheijden86/moneybird-mcp-server): Bridges Moneybird accounting software with natural language interaction, enabling users to manage contacts, invoices, financial accounts, products, projects, and time entries through conversational prompts.  (10 tools) (node) 
 - [✅ octagon-mcp](https://github.com/octagonai/octagon-mcp-server): Provides specialized investment research tools for analyzing SEC filings, earnings calls, financial data, stock market information, private company details, funding rounds, M&A transactions, and web scraping capabilities.  (3 tools) (node) 
+- [✅ octav-api-mcp](https://github.com/Octav-Labs/octav-api-mcp): Multi-chain crypto portfolio tracking MCP server. Access wallet holdings, DeFi protocol positions, transaction history, and token analytics across 20+ blockchains directly from Claude.  (14 tools) (node) 
 - [✅ search-stock-news-mcp](https://github.com/cognitive-stack/search-stock-news-mcp): Provides a specialized tool for retrieving stock-related news using the Tavily API, enabling financial searches by stock symbol and company name with configurable parameters for Vietnamese financial sources like CafeF and Nguoi Quan Sat.  (2 tools) (node) 
 - [✅ setu_mcp_kyc](https://github.com/setuhq/setu-mcps/tree/HEAD/kyc): Integrates Setu's Digital Gateway APIs to provide KYC verification tools for PAN, GST, and name matching, enabling automated identity checks and regulatory compliance.  (3 tools) (python) 
 - [✅ setu_mcp_upi_deeplinks](https://github.com/setuhq/setu-mcps/tree/HEAD/upi-deeplinks): Integrates Setu's UPI payment infrastructure to enable seamless generation and management of payment links for applications.  (5 tools) (python) 
@@ -3032,7 +3040,7 @@ New mcp tool: Exa-code is a context tool for coding   (node)
 
 
 <a id="knowledge-memory"></a>
-### Knowledge & Memory <small>(204 servers)</small>
+### Knowledge & Memory <small>(205 servers)</small>
 
 > Store and query structured information for AI models to use across sessions.
 
@@ -3069,6 +3077,7 @@ New mcp tool: Exa-code is a context tool for coding   (node)
 - [✅ think-mcp-server](https://github.com/marcopesani/think-mcp-server): Provides a dedicated thinking space for complex reasoning with encouraging feedback, enabling step-by-step analysis and memory retention without external actions.  (1 tools) (node) 
 - [✅ think-tool-mcp](https://github.com/abhinav-mangla/think-tool-mcp): Provides a structured thought process management system for maintaining explicit reasoning steps, policy verification, and tool output analysis through persistent memory storage  (1 tools) (node) 
 - [❌ @aashari/mcp-server-atlassian-confluence](https://github.com/aashari/mcp-server-atlassian-confluence): Integrates with Atlassian Confluence to provide direct access to spaces, pages, and content with tools for listing, retrieving, and searching using CQL while converting content to Markdown format  (node) 
+- [❌ @agentskb/cli](https://github.com/Cranot/agentskb-mcp): Pre-researched knowledge base for AI coding assistants. Provides 5,700+ Q&As covering PostgreSQL, Next.js, Prisma, FastAPI, Docker, AWS, and 40+ other developer domains to ensure AI gets specific technical details right.  (node) 
 - [❌ @aindreyway/mcp-codex-keeper](https://github.com/aindreyway/mcp-codex-keeper): Integrates with external resources to provide curated development knowledge for code generation, bug fixing, and context-aware programming advice.  (node) 
 - [❌ @delorenj/mcp-qdrant-memory](https://github.com/delorenj/mcp-qdrant-memory): Integrates a knowledge graph with semantic search capabilities, enabling efficient storage, retrieval, and querying of structured information for context-aware applications.  (node) 
 - [❌ @eventcatalog/mcp-server](https://github.com/event-catalog/mcp-server): Provides a dynamic event catalog server for querying and retrieving architectural metadata, enabling developers to explore complex event-driven system components through predefined tools and resources.  (node) 
@@ -3442,7 +3451,7 @@ New mcp tool: Exa-code is a context tool for coding   (node)
 
 
 <a id="search-data-extraction"></a>
-### Search & Data Extraction <small>(406 servers)</small>
+### Search & Data Extraction <small>(407 servers)</small>
 
 > Find and extract data from various sources quickly and efficiently.
 
@@ -3592,6 +3601,7 @@ New mcp tool: Exa-code is a context tool for coding   (node)
 - [❌ baidu-mcp-server](https://github.com/evilran/baidu-mcp-server): Provides web search capabilities through Baidu's search engine, enabling retrieval of search results and webpage content with robust error handling and content parsing.  (python) 
 - [❌ baidu-search](https://github.com/appleinmusic/baidu-search-mcp): Integrates with Baidu Search to enable web searches, result retrieval, and information extraction from China's largest search engine, providing access to Chinese language content and resources behind the Great Firewall.  (node) 
 - [❌ barnsworthburning-search](https://github.com/aias/barnsworthburning-mcp): Integrates with barnsworthburning.net's API to enable direct querying of website content for design, typography, and user experience information  (node) 
+- [❌ bgpt-mcp](https://github.com/connerlambden/bgpt-mcp): Search scientific papers with structured experimental data extracted from full-text studies. Returns 25+ fields per paper including methods, results, sample sizes, quality scores, and conclusions.  (node) 
 - [❌ bilibili-search](https://github.com/huccihuang/bilibili-mcp-server): Enables search across Bilibili's Chinese video platform through a lightweight FastMCP interface that retrieves video content, user information, and other searchable data with optional authentication via session cookies.  (python) 
 - [❌ bing-search](https://github.com/leehanchung/bing-search-mcp): Enables web, news, and image searches through Microsoft's Bing Search API, providing access to up-to-date information from the internet.  (python) 
 - [❌ bing-webmaster-tools](https://github.com/zizzfizzix/mcp-server-bwt): Integrates with Bing Webmaster Tools API to enable complete site management, URL submission, traffic analysis, crawling, keyword research, and content management through natural language interactions.  (python) 
@@ -4131,8 +4141,8 @@ New mcp tool: Exa-code is a context tool for coding   (node)
 - [✅ @mfukushim/map-traveler-mcp](https://github.com/mfukushim/map-traveler-mcp): Integrates with Google Maps to create virtual travel experiences where users can navigate real-world routes with customizable avatars, discover nearby facilities, and share journeys on Bluesky.  (8 tools) (node) 
 - [✅ @openbnb/mcp-server-airbnb](https://github.com/openbnb-org/mcp-server-airbnb): Integrates with Airbnb to enable vacation rental search and detailed property information retrieval without requiring API keys  (2 tools) (node) 
 - [✅ @variflight-ai/variflight-mcp](https://github.com/variflight/variflight-mcp): Integrates with Variflight API to provide real-time flight information, schedules, aircraft tracking, airport weather forecasts, and comfort metrics for travel planning and aviation monitoring applications.  (8 tools) (node) 
-- [✅ 12306-mcp](https://github.com/freestylefly/12306-mcp): Integrates with China's 12306 railway system to search train tickets, check schedules, and retrieve route information across the Chinese railway network with real-time availability and pricing data.  (8 tools) (node) 
-- [✅ 12306-mcp](https://github.com/freestylefly/12306-mcp): Integrates with China's 12306 railway system to search train tickets, check schedules, and retrieve route information across the Chinese railway network with real-time availability and pricing data.  (8 tools) (node) 
+- [✅ 12306-mcp](https://github.com/Joooook/12306-mcp): A 12306 ticket search server based on the Model Context Protocol (MCP). The server provides a simple API interface that allows users to search for 12306 tickets.  (8 tools) (node) 
+- [✅ 12306-mcp](https://github.com/Joooook/12306-mcp): A 12306 ticket search server based on the Model Context Protocol (MCP). The server provides a simple API interface that allows users to search for 12306 tickets.  (8 tools) (node) 
 - [✅ caltrain-mcp](https://github.com/davidyen1124/caltrain-mcp): Provides real-time Caltrain commuter rail information including schedules, station details, and trip planning for the San Francisco Bay Area  (2 tools) (python) 
 - [✅ lumbretravel-mcp](https://github.com/lumile/lumbretravel-mcp): Integrates with the Argentinian LumbreTravel API to manage travel programs, activities, and bookings for efficient itinerary planning and service coordination.  (68 tools) (node) 
 - [✅ train_12306](https://github.com/ecmadao/Train-12306): A command line tool to show 12306 tickets  (4 tools) (python) 
@@ -4260,7 +4270,7 @@ New mcp tool: Exa-code is a context tool for coding   (node)
 
 
 <a id="other-tools-and-integrations"></a>
-### Other Tools and Integrations <small>(808 servers)</small>
+### Other Tools and Integrations <small>(811 servers)</small>
 
 > Miscellaneous tools and integrations that don’t fit into other categories.
 
@@ -4311,8 +4321,10 @@ New mcp tool: Exa-code is a context tool for coding   (node)
 - [✅ @stackzero-labs/mcp](https://github.com/stackzero-labs/mcp): Integrates with Stackzero Labs' commerce UI component library to browse, retrieve, and install React components optimized for e-commerce applications including ratings, image viewers, product controls, and banner blocks with installation instructions and usage examples.  (12 tools) (node) 
 - [✅ @surajadsul02/mcp-server-salesforce](https://github.com/surajadsul/mcp-server-salesforce): Integrates Claude with Salesforce, enabling natural language interactions for object management, schema exploration, data querying, and manipulation across Salesforce objects.  (7 tools) (node) 
 - [✅ @tacticlaunch/mcp-linear](https://github.com/tacticlaunch/mcp-linear): Bridges Linear project management system with natural language interaction, enabling issue tracking, project workflows, and team management without context switching.  (32 tools) (node) 
+- [✅ @taskade/mcp-server](https://github.com/taskade/mcp): Official Taskade MCP server with 50+ tools for managing workspaces, projects, tasks, custom AI agents, knowledge bases, templates, and workflow automations. Includes OpenAPI-to-MCP codegen utility.  (21 tools) (node) 
 - [✅ @thomaswawra/server-spotify](https://github.com/superseoworld/mcp-spotify): Integrates with Spotify Web API to enable music search, playback control, and playlist management for applications needing music data and content access.  (26 tools) (node) 
 - [✅ @wangshunnn/bilibili-mcp-server](https://github.com/wangshunnn/bilibili-mcp-server): Integrates with Bilibili video platform to retrieve user information, video details, and perform searches without switching contexts.  (3 tools) (node) 
+- [✅ @wavestreamer/mcp](https://www.npmjs.com/package/@wavestreamer/mcp): AI forecasting platform where agents predict the future of AI — place predictions with confidence scores, evidence-based reasoning, debate, and climb the leaderboard.  (17 tools) (node) 
 - [✅ @wenbopan/things-mcp](https://github.com/wbopan/things-mcp): Integrates with Things.app task management for macOS, enabling task and project creation with full metadata support, update operations including completion status, database export functionality, and summary generation through URL scheme and direct database access.  (6 tools) (node) 
 - [✅ a11y-mcp-server](https://github.com/ronantakizawa/a11ymcp): Provides accessibility testing capabilities for web content using Axe-core, enabling evaluation of websites and HTML snippets against WCAG standards with detailed violation reports and remediation guidance.  (6 tools) (node) 
 - [✅ advocu-mcp-server](https://github.com/carlosazaustre/advocu-mcp-server): Integrates with the Advocu platform to streamline activity reporting for Google Developer Experts, enabling submission of content creation, speaking engagements, workshops, mentoring sessions, and community interactions with detailed metrics tracking.  (7 tools) (node) 
@@ -4422,6 +4434,7 @@ New mcp tool: Exa-code is a context tool for coding   (node)
 - [❌ @rawveg/ollama-mcp](https://github.com/rawveg/ollama-mcp): Integrates Ollama's local LLM models with MCP-compatible applications, enabling on-premise AI processing and custom model deployment while maintaining data control.  (node) 
 - [❌ @rijk/directus-mcp-server](https://github.com/rijkvanzanten/directus-mcp-server): Bridges AI tools with Directus headless CMS, enabling content operations through automatically generated tools based on your instance's schema  (node) 
 - [❌ @sanity/mcp-server](https://github.com/sanity-io/sanity-mcp-server): Integrates with Sanity CMS to enable direct content creation, querying, and management through specialized tools for documents, datasets, schemas, releases, and embeddings  (node) 
+- [❌ @skillboss/mcp-server](https://skillboss.co): The complete tool store for AI agents. Provides instant access to 100+ services including AI models, image/video generation, web scraping, payments, databases, and more with a single API key.  (node) 
 - [❌ @terryliyongjie/api2mcptools](https://github.com/jayli52/api2mcptools): Converts JSON API definitions into executable tools, enabling seamless integration of external APIs without modifying core server code.  (node) 
 - [❌ @testomatio/mcp](https://github.com/testomatio/mcp): Integrates with the Testomatio API to search and retrieve test cases, test suites, test runs, and test plans with advanced filtering capabilities including tags, labels, priority levels, and Test Query Language support for QA teams managing large test repositories.  (node) 
 - [❌ @tfedorko/licensespring-mcp-server](https://github.com/stier1ba/licensespring-mcp): Integrates with LicenseSpring's license management platform to enable software license activation, validation, consumption tracking, customer management, and trial key generation through dual API architecture with HMAC-SHA256 authentication.  (node) 

@@ -9626,7 +9626,7 @@
   },
   "mongodb-mcp-server": {
     "category": "databases",
-    "path": "databases/mongodb-mcp-server.json",
+    "path": "databases/mongodb-mcp.json",
     "validated": true,
     "tools": {
       "connect": {
@@ -42076,7 +42076,7 @@
   },
   "12306-mcp": {
     "category": "travel-transportation",
-    "path": "travel-transportation/12306-mcp.json",
+    "path": "travel-transportation/jok-12306-mcp.json",
     "validated": true,
     "tools": {
       "get-current-date": {
@@ -56262,5 +56262,278 @@
         "description": "Reads a specific thought file and returns its raw content for review."
       }
     }
+  },
+  "cocoindex-code": {
+    "path": "uncategorized/cocoindex-code.json",
+    "category": "uncategorized"
+  },
+  "@skillboss/mcp-server": {
+    "path": "other-tools-and-integrations/skillboss-mcp.json",
+    "category": "other-tools-and-integrations",
+    "tools": {},
+    "validated": false
+  },
+  "commune-mcp": {
+    "path": "communication/commune-mcp.json",
+    "category": "communication"
+  },
+  "mcp-database-connector-lite": {
+    "path": "databases/mcp-database-connector-lite.json",
+    "category": "databases"
+  },
+  "@toolsdk-remote/opendirectories-business-data": {
+    "path": "data-platforms/toolsdk-remote-opendirectories-business-data.json",
+    "category": "data-platforms",
+    "tools": {},
+    "validated": false
+  },
+  "mcp-api-bridge-lite": {
+    "path": "developer-tools/mcp-api-bridge-lite.json",
+    "category": "developer-tools"
+  },
+  "lightcms": {
+    "path": "developer-tools/lightcms.json",
+    "category": "developer-tools"
+  },
+  "octav-api-mcp": {
+    "path": "finance-fintech/octav-api-mcp.json",
+    "category": "finance-fintech",
+    "tools": {
+      "octav_get_portfolio": {
+        "name": "octav_get_portfolio",
+        "description": "Get complete portfolio including wallet holdings and DeFi protocol positions across 20+ blockchains. Returns token balances, values, and protocol positions. Costs 1 credit per address."
+      },
+      "octav_get_wallet": {
+        "name": "octav_get_wallet",
+        "description": "Get wallet holdings only (excludes DeFi protocols). Returns token balances and values across all chains. Costs 1 credit per address."
+      },
+      "octav_get_nav": {
+        "name": "octav_get_nav",
+        "description": "Get total net worth (NAV) in specified currency. Supports USD, EUR, GBP, JPY, CNY, ETH, BTC. Costs 1 credit per address."
+      },
+      "octav_get_token_overview": {
+        "name": "octav_get_token_overview",
+        "description": "Get aggregated token distribution across all chains. Shows which tokens you hold, their values, and percentage breakdown. Costs 1 credit per address."
+      },
+      "octav_get_transactions": {
+        "name": "octav_get_transactions",
+        "description": "Query transaction history with filtering and pagination. Filter by chain, type, date range. Max 250 transactions per request. Costs 1 credit per address."
+      },
+      "octav_sync_transactions": {
+        "name": "octav_sync_transactions",
+        "description": "Manually trigger transaction synchronization for addresses. Forces immediate indexing of latest transactions. Costs 1 credit per address."
+      },
+      "octav_get_historical": {
+        "name": "octav_get_historical",
+        "description": "Get portfolio snapshot for a specific date in the past. Shows holdings and values at that point in time. Costs 1 credit per address."
+      },
+      "octav_subscribe_snapshot": {
+        "name": "octav_subscribe_snapshot",
+        "description": "Subscribe to automatic portfolio snapshots. Enables historical tracking. Costs 1200 credits. API expects addresses with optional descriptions."
+      },
+      "octav_get_status": {
+        "name": "octav_get_status",
+        "description": "Check synchronization status of addresses across all chains. Shows which chains are synced and last sync time. FREE - no credits required."
+      },
+      "octav_get_credits": {
+        "name": "octav_get_credits",
+        "description": "Check API credit balance, usage, and remaining credits. FREE - no credits required."
+      },
+      "octav_get_airdrop": {
+        "name": "octav_get_airdrop",
+        "description": "Check airdrop eligibility for Solana address. Shows eligible airdrops with claim links. Solana addresses only. Costs 1 credit."
+      },
+      "octav_get_polymarket": {
+        "name": "octav_get_polymarket",
+        "description": "Get Polymarket prediction market positions for address. Shows active positions, values, and P&L. Costs 1 credit."
+      },
+      "octav_agent_wallet": {
+        "name": "octav_agent_wallet",
+        "description": "Get wallet holdings using x402 payment protocol. For AI agents with automatic payment. Returns wallet balances and values. Costs paid via HTTP 402 payment protocol."
+      },
+      "octav_agent_portfolio": {
+        "name": "octav_agent_portfolio",
+        "description": "Get full portfolio using x402 payment protocol. For AI agents with automatic payment. Returns wallet + DeFi positions. Costs paid via HTTP 402 payment protocol."
+      }
+    },
+    "validated": true
+  },
+  "@agentskb/cli": {
+    "path": "knowledge-memory/agentskb-mcp.json",
+    "category": "knowledge-memory",
+    "tools": {},
+    "validated": false
+  },
+  "bgpt-mcp": {
+    "path": "search-data-extraction/bgpt-mcp.json",
+    "category": "search-data-extraction",
+    "tools": {},
+    "validated": false
+  },
+  "@wavestreamer/mcp": {
+    "path": "other-tools-and-integrations/wavestreamer.json",
+    "category": "other-tools-and-integrations",
+    "tools": {
+      "register_agent": {
+        "name": "register_agent",
+        "description": "Create a new AI agent on waveStreamer and receive an API key. The API key is shown only once — save it immediately. Required before making predictions, posting comments, or checking your profile. Optionally provide a referral_code for bonus points."
+      },
+      "view_taxonomy": {
+        "name": "view_taxonomy",
+        "description": "Get the full taxonomy of categories, subcategories, and tags. Use this before suggest_question to pick the right category and subcategory."
+      },
+      "list_predictions": {
+        "name": "list_predictions",
+        "description": "Browse prediction questions on waveStreamer. Returns question IDs, titles, categories, current yes/no counts, and deadlines. Filter by status (open/closed/resolved), question_type (binary/multi), category, or subcategory. Start here to find questions to predict on."
+      },
+      "make_prediction": {
+        "name": "make_prediction",
+        "description": "Place a prediction on a waveStreamer question. For binary questions set prediction to true (Yes) or false (No). For multi-choice also set selected_option. Confidence 50-99: higher risk = higher reward. Reasoning must use EVIDENCE / ANALYSIS / COUNTER-EVIDENCE / BOTTOM LINE sections with [1],[2] citations. resolution_protocol is required — copy criterion, source_of_truth, deadline from the question."
+      },
+      "check_profile": {
+        "name": "check_profile",
+        "description": "Get your agent's profile: points, tier (Observer → Architect), streak, accuracy, referral code, and global ranking. Share your referral code with other agents — both earn bonus points."
+      },
+      "view_leaderboard": {
+        "name": "view_leaderboard",
+        "description": "Get the global agent leaderboard ranked by points. Shows agent names, tiers, accuracy, and streaks. No authentication required."
+      },
+      "post_comment": {
+        "name": "post_comment",
+        "description": "Post a comment on a prediction question. Share analysis, debate other agents, or add new evidence. Good comments cite sources and engage with existing predictions. Earns engagement points."
+      },
+      "suggest_question": {
+        "name": "suggest_question",
+        "description": "Propose a new prediction question for the platform. Good questions are specific, time-bound, and verifiable. Reviewed by admins before going live. For multi-choice set question_type='multi' and provide 2-6 options."
+      },
+      "submit_referral_share": {
+        "name": "submit_referral_share",
+        "description": "Submit a social media URL as proof of sharing your referral code. Awards +100 pts per verified share (max 5/day). +300 bonus at 5 shares."
+      },
+      "open_dispute": {
+        "name": "open_dispute",
+        "description": "Dispute a resolved question you predicted on. Must provide reason (50+ chars) with evidence. Available within 72 hours of resolution."
+      },
+      "list_disputes": {
+        "name": "list_disputes",
+        "description": "List all disputes for a question. Shows status, who disputed, and reason."
+      },
+      "create_webhook": {
+        "name": "create_webhook",
+        "description": "Register a webhook endpoint to receive real-time event notifications. Returns a signing secret (shown once — save it). Events: question.created, question.closed, question.resolved, question.closing_soon, prediction.placed, comment.created, comment.reply, dispute.opened, dispute.resolved."
+      },
+      "list_webhooks": {
+        "name": "list_webhooks",
+        "description": "List your registered webhooks and their subscribed events."
+      },
+      "delete_webhook": {
+        "name": "delete_webhook",
+        "description": "Delete a webhook by ID. Stops all event deliveries to that endpoint."
+      },
+      "update_webhook": {
+        "name": "update_webhook",
+        "description": "Update a webhook's URL, subscribed events, or active status. Only provided fields are changed. Max 10 webhooks per user. Rate limited: 20 mutations/min."
+      },
+      "test_webhook": {
+        "name": "test_webhook",
+        "description": "Send a test ping to a webhook endpoint to verify delivery works."
+      },
+      "list_webhook_events": {
+        "name": "list_webhook_events",
+        "description": "List all valid event types you can subscribe to with webhooks."
+      }
+    },
+    "validated": true
+  },
+  "@taskade/mcp-server": {
+    "path": "other-tools-and-integrations/taskade-mcp-server.json",
+    "category": "other-tools-and-integrations",
+    "tools": {
+      "workspaceCreateProject": {
+        "name": "workspaceCreateProject",
+        "description": "Create a project in a workspace"
+      },
+      "workspacesGet": {
+        "name": "workspacesGet",
+        "description": "Get all workspaces for a user"
+      },
+      "workspaceFoldersGet": {
+        "name": "workspaceFoldersGet",
+        "description": "Get all folders for a workspace"
+      },
+      "projectGet": {
+        "name": "projectGet",
+        "description": "Get project"
+      },
+      "projectCopy": {
+        "name": "projectCopy",
+        "description": "Copy a project to a folder"
+      },
+      "projectCreate": {
+        "name": "projectCreate",
+        "description": "Create a project in a team"
+      },
+      "projectBlocksGet": {
+        "name": "projectBlocksGet",
+        "description": "Get all blocks for a project"
+      },
+      "projectTasksGet": {
+        "name": "projectTasksGet",
+        "description": "Get all tasks for a project"
+      },
+      "taskGet": {
+        "name": "taskGet",
+        "description": "Get task with id"
+      },
+      "taskPut": {
+        "name": "taskPut",
+        "description": "Update task."
+      },
+      "taskComplete": {
+        "name": "taskComplete",
+        "description": "Complete a task in a project"
+      },
+      "taskCreate": {
+        "name": "taskCreate",
+        "description": "Create one or more tasks in a project"
+      },
+      "taskMove": {
+        "name": "taskMove",
+        "description": "Move a task within the project"
+      },
+      "taskAssigneesGet": {
+        "name": "taskAssigneesGet",
+        "description": "Get the assignees of a task"
+      },
+      "taskPutAssignees": {
+        "name": "taskPutAssignees",
+        "description": "Task assignment"
+      },
+      "taskDeleteAssignees": {
+        "name": "taskDeleteAssignees",
+        "description": "Remove assignee from a task"
+      },
+      "taskGetDate": {
+        "name": "taskGetDate",
+        "description": "Get the date of a task"
+      },
+      "taskDeleteDate": {
+        "name": "taskDeleteDate",
+        "description": "Delete date of a task"
+      },
+      "taskPutDate": {
+        "name": "taskPutDate",
+        "description": "Create or update date for a task"
+      },
+      "taskNotePut": {
+        "name": "taskNotePut",
+        "description": "Add/update a note to the task"
+      },
+      "folderProjectsGet": {
+        "name": "folderProjectsGet",
+        "description": "Get all projects in a team, or in the home team of a workspace."
+      }
+    },
+    "validated": true
   }
 }
