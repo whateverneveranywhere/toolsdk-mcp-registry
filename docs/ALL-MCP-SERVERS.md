@@ -1,6 +1,6 @@
 # 📚 All MCP Servers
 
-> **Complete directory of all 4542+ MCP servers in the ToolSDK Registry**
+> **Complete directory of all 4544+ MCP servers in the ToolSDK Registry**
 >
 > Looking for production-ready servers only? See the [main README](../README.md) for validated servers.
 
@@ -8,9 +8,9 @@
 
 ## 📊 Statistics
 
-- 📦 **Total Servers**: 4542
+- 📦 **Total Servers**: 4544
 - ✅ **Validated & Tested**: 813
-- ⚙️ **Community Contributed**: 3729
+- ⚙️ **Community Contributed**: 3731
 
 ---
 
@@ -55,7 +55,7 @@
 
 
 <a id="uncategorized"></a>
-### Uncategorized <small>(559 servers)</small>
+### Uncategorized <small>(560 servers)</small>
 
 > Tools that haven’t been sorted into a category yet. AI will categorize it later.
 
@@ -395,6 +395,7 @@ New mcp tool: Exa-code is a context tool for coding   (node)
 - [❌ @toolsdk-remote/co-axiom-mcp](https://github.com/axiomhq/mcp): List datasets, schemas, run APL queries, and use prompts for exploration, anomalies, and monitoring.  (node) 
 - [❌ @toolsdk-remote/co-thisdot-docusign-navigator-mcp](https://github.com/thisdot/docusign-navigator-mcp): Secure Docusign Navigator integration for AI assistants to access and analyze agreement data.  (node) 
 - [❌ @toolsdk-remote/com-agilitycms-mcp-server](https://github.com/agility/agility-mcp-server): An MCP server that provides access to Agility CMS.  See https://mcp.agilitycms.com for more details.  (node) 
+- [❌ @toolsdk-remote/com-bamboosnow-omnis-venture-intelligence](https://github.com/HCS412/ventureautomated): Hosted MCP and API for startup discovery, company scoring, venture monitoring, and private workspace automation for investors and autonomous agents.  (node) 
 - [❌ @toolsdk-remote/com-bullpenstrategygroup-rotunda-mcp](https://github.com/CorporateEntity101/rotunda): An MCP server that provides congressional transcripts  (node) 
 - [❌ @toolsdk-remote/com-civic-nexus](https://github.com/civicteam/civic-mcp): Zero-setup MCP gateway securely connecting AI to your tools with authentication and workflows  (node) 
 - [❌ @toolsdk-remote/com-devcycle-mcp](https://github.com/DevCycleHQ/cli): DevCycle MCP server for feature flag management  (node) 
@@ -2715,7 +2716,7 @@ New mcp tool: Exa-code is a context tool for coding   (node)
 
 
 <a id="finance-fintech"></a>
-### Finance & Fintech <small>(273 servers)</small>
+### Finance & Fintech <small>(274 servers)</small>
 
 > Work with financial data, market info, and trading platforms using AI tools.
 
@@ -2933,6 +2934,7 @@ New mcp tool: Exa-code is a context tool for coding   (node)
 - [❌ razorpay](https://github.com/razorpay/razorpay-mcp-server): Provides a bridge between natural language commands and Razorpay's payment processing APIs, enabling seamless integration for payment operations, payment links, and order management.  (go) 
 - [❌ realtime-crypto-mcp-server](https://github.com/smhnkmr/realtime-crypto-mcp-server): Provides real-time cryptocurrency data through the CoinCap API, offering detailed exchange information and current rates with robust error handling and automatic retries.  (node) 
 - [❌ rootdata](https://github.com/jincai/rootdata-mcp-server): Provides a bridge to the RootData API for searching and retrieving detailed information about blockchain projects, venture capital organizations, and industry professionals for crypto research and investment analysis.  (python) 
+- [❌ rustchain-mcp](https://github.com/Scottcjn/rustchain-mcp): MCP server for RustChain blockchain and BoTTube video platform — AI agent tools for earning RTC tokens through mining, wallet management, bounty hunting, and video publishing  (python) 
 - [❌ safe-wallet](https://github.com/5ajaki/safe-mcp-server): Enables interaction with Safe smart contract wallets for querying transactions, retrieving multisig details, and decoding data using the Safe Transaction API.  (node) 
 - [❌ sailfish](https://github.com/sailfish-finance/educhain-ai-agent-kit): Provides a bridge to the SailFish decentralized exchange on the EDU blockchain, enabling token swaps, liquidity pool queries, and market data analysis through a GraphQL subgraph with optimal routing capabilities.  (node) 
 - [❌ schwab](https://github.com/jkoelker/schwab-mcp): Bridges Claude with Schwab API for accessing financial account information, stock quotes, and transaction history through OAuth authentication and nine specialized tools for retrieving financial data.  (python) 
@@ -4142,7 +4144,7 @@ New mcp tool: Exa-code is a context tool for coding   (node)
 
 
 <a id="travel-transportation"></a>
-### Travel & Transportation <small>(42 servers)</small>
+### Travel & Transportation <small>(43 servers)</small>
 
 > Get travel schedules, routes, and real-time transportation data.
 
@@ -4155,6 +4157,7 @@ New mcp tool: Exa-code is a context tool for coding   (node)
 - [✅ caltrain-mcp](https://github.com/davidyen1124/caltrain-mcp): Provides real-time Caltrain commuter rail information including schedules, station details, and trip planning for the San Francisco Bay Area  (2 tools) (python) 
 - [✅ lumbretravel-mcp](https://github.com/lumile/lumbretravel-mcp): Integrates with the Argentinian LumbreTravel API to manage travel programs, activities, and bookings for efficient itinerary planning and service coordination.  (68 tools) (node) 
 - [✅ train_12306](https://github.com/ecmadao/Train-12306): A command line tool to show 12306 tickets  (4 tools) (python) 
+- [❌ @cabin/agent](https://github.com/yolo-maxi/cabin): AI-first travel booking with natural language. Search flights with crypto micropayments.  (node) 
 - [❌ ads-b-exchange](https://github.com/sragss/flight-mcp): Provides real-time aircraft tracking data through the ADS-B Exchange API with tools for geographic aircraft search, individual aircraft lookup, military aircraft filtering, and aircraft type enumeration for aviation monitoring and flight analysis applications.  (node) 
 - [❌ airbnb](https://github.com/domoteek/mcp-server-airbnb): Integrates with Airbnb's search and listing details functionality to enable vacation rental discovery and analysis with filters for location, dates, guests, amenities, and pricing  (node) 
 - [❌ amadeus](https://github.com/privilegemendes/amadeus-mcp-server-standalone): Integrates with Amadeus API to enable flight searches, price analysis, and multi-city trip planning with built-in caching for rate limit handling  (node) 
