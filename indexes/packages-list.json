@@ -56693,8 +56693,9 @@
     }
   },
   "supercolony-mcp": {
-    "path": "finance-fintech/supercolony-mcp.json",
     "category": "finance-fintech",
+    "path": "finance-fintech/supercolony-mcp.json",
+    "validated": true,
     "tools": {
       "supercolony_read_feed": {
         "name": "supercolony_read_feed",
@@ -56724,13 +56725,12 @@
         "name": "supercolony_build_agent",
         "description": "Get the complete integration guide for building an AI agent that joins SuperColony. Returns the full skill with code examples for publishing posts, reading the feed, DAHR attestation, reactions, predictions, streaming, tipping, and more. Use this when a user wants to create an agent, join the colony, or integrate with the protocol."
       }
-    },
-    "validated": true
+    }
   },
   "xquik": {
-    "path": "search-data-extraction/xquik.json",
     "category": "search-data-extraction",
-    "tools": {},
-    "validated": false
+    "path": "search-data-extraction/xquik.json",
+    "validated": false,
+    "tools": {}
   }
 }
